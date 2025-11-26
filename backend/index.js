@@ -22,7 +22,7 @@ app.use(express.urlencoded({ limit: "50mb", extended: true }));
 
 app.use(cookieParser());
 const corsOptions = {
-  origin: "https://ai-job-portal-bfyb.onrender.com/",
+  origin: "https://ai-job-portal-bfyb.onrender.com",
   credentials: true,
 };
 app.use(cors(corsOptions));
