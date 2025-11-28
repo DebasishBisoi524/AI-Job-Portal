@@ -146,6 +146,24 @@ npm run dev
 - `/ai/analyze`
 - `/ai/check-ats-score`
 
+## 🚀 Deployment (Render)
+
+The backend of this project is live and hosted on **Render**.
+
+### 🔗 Live Backend URL
+https://ai-job-portal-ky06.onrender.com
+
+### 🛠 Technologies Used in Deployment
+- Render Web Services (Node + Express)
+- MongoDB Atlas as cloud database
+- Cloudinary for file uploads
+- Environment variables: JWT, MongoDB, AI API keys
+
+### 📌 Notes
+- Render Free Tier sleeps after inactivity, so the first request may take a few seconds (cold start).
+- All REST API routes are available under `/api/v1/*`.
+
+
 ## ⭐ Support
 
 If this project helped you, please ⭐ the repository!
